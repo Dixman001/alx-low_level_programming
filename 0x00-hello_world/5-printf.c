@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main -> this is the Entry point for printing
  * printimg a statement
  * using the betty style
  * return: Always 0 (success)
