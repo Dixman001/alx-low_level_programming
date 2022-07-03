@@ -8,12 +8,12 @@
  */
 int main (void)
 {
-	char low, hi;
+	char low;
 
 	for(low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	for(hi = 'A'; hi <= 'Z'; hi++)
-		putchar(hi);
+	for(low = 'A'; low <= 'Z'; hi++)
+		putchar(low);
 		printf('\n');
 	return(0);
 }
