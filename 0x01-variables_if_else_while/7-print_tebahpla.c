@@ -1,4 +1,4 @@
-lude <stdio.h>
+#include <stdio.h>
 
 #include <stdlib.h>
 
@@ -25,8 +25,8 @@ int main(void)
 
 		putchar (low);
 
-	printf ('\n');
+	printf('\n');
 
-	return(0);
+	return (0);
 
 }
