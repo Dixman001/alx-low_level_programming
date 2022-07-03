@@ -14,6 +14,6 @@ int main (void)
 		putchar(low);
 	for(hi = 'A'; hi <= 'Z'; hi++)
 		putchar(hi);
-	printf('\n');
+		printf('\n');
 	return(0);
 }
