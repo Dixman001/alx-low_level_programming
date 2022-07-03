@@ -14,7 +14,7 @@
  */
 
 int main(void)
-
+/* main.c*/
 {
 
 	char low;
