@@ -6,6 +6,7 @@
  *
  * return: always 0 (success)
  */
+
 int main (void)
 {
 	char low;
@@ -13,5 +14,6 @@ int main (void)
 	for(low = 'a'; low <= 'z'; low++)
 		putchar(low);
 		printf('\n');
+
 	return(0);
 }
