@@ -4,7 +4,7 @@
 
 /*
  *
- * main - Prints all possible combinations of single-digit numbers.
+ * main.c - Prints all possible combinations of single-digit numbers.
  *
  *
  *
