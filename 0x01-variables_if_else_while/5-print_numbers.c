@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - Entry Point
+/*
+ * main - Entry point
  *
- * return: always 0 (success)
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	int z;
+	int i;
 
-	for(z = 0; z < 10; z++)
-		printf("%d"; z);
-		printf('\n');
-	return (0);
+		for (i = 0; i < 10; i++)
+			printf("%d", i);
+			printf("\n");
+
+		return (0);
 }
