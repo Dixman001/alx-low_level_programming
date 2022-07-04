@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line.
- *        
- *
- *
+ * main - Entry point
+ * Description: print the alphabet in lowercase, and then in upper case
  * return: always 0 (success)
  */
 int main(void)
