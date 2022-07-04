@@ -6,7 +6,7 @@
  * description: print lowercase and uppercase
  * return: always 0 (success)
  */
-int (void)
+int(void)
 {
 	char low;
 
