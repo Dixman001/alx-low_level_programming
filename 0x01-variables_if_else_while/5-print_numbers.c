@@ -7,13 +7,19 @@
  * return: always 0 (success)
  */
 int main(void)
+
 {
-	int z;
 
-	for (z = '0'; z < '10'; z++)
-		printf("%d", z);
+	int num;
+
+	for (num = 0; num < 10; num++)
 	
-	printf('\n');
+		printf("%d", num);
 
-	return(0);
+
+	printf("\n");
+
+
+	return (0);
+
 }
