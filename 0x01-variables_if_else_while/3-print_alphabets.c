@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /*
- *main = Entry point
- *Description: print the alphabet in lowercase, and then in upper case
- *return: always 0 (success)
+ * @main -  Entry point
+ * description: print lowercase and uppercase
+ * return: always 0 (success)
  */
 
 int main(void)
