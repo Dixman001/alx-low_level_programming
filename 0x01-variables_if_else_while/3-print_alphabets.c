@@ -7,7 +7,7 @@
  * description: print lowercase and uppercase
  * return: always 0 (success)
  */
-main(void)
+int main(void)
 {
 	char low;
 
