@@ -4,6 +4,8 @@
 /*
  * main - Entry Point
  *
+ * description: prints the alphabet in lowercase
+ *
  * return: always 0 (success)
  */
 int main(void)
