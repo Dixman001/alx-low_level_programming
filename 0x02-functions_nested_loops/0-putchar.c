@@ -4,7 +4,7 @@
  * Description: Print _putchar
  * Return: Always 0 (success)
  */
-int _putchar(char c)
+int _putchar(char)
 {
 
 	putchar (95);
