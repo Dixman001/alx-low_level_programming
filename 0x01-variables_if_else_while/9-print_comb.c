@@ -1,27 +1,17 @@
 #include <stdio.h>
-
-
-
-/*
+/**
+ * main - Entry point
  *
- * main.c - Prints all possible combinations of single-digit numbers.
+ * Description: Prints ali combinations of single-digit numbers.
  *
- *
- *
- * Return: Always 0.
- *
+ * Return: Always 0 (success)
  */
-
 int main(void)
-
 {
 
 	int num;
 
-
-
 	for (num = 0; num <= 9; num++)
-
 	{
 
 		putchar((num % 10) + '0');
@@ -30,9 +20,8 @@ int main(void)
 
 			continue;
 
-
 		putchar(',');
-		
+
 		putchar(' ');	
 	}
 
