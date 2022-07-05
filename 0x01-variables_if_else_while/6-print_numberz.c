@@ -4,10 +4,11 @@
 
 #include <time.h>
 
-/*
- * main: Entry Point
+/**
+ * main - Entry Point
  *
- *
+ * Description: Print all single digit of base 10
+ *              only use putchar
  *
  * return: always 0 (success)
  */
