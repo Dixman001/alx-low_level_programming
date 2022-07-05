@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * _pitchar: - Entry point
  * Description: Print _putchar
  * Return: Always 0 (success)
  */
-char putchar(void)
+int _putchar(char c)
 {
 
 	putchar (95);
@@ -17,5 +17,5 @@ char putchar(void)
 	putchar (114);
 	putchar ('\n');
 
-	return;
+	return (0);
 }
