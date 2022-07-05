@@ -5,13 +5,11 @@
 #include <time.h>
 
 /**
+ * main - Entry point
  *
- * main - Prints all the numbers of base 16 in lowercase.
+ * Description: Prints all the numbers of base 16 in lowercase.
  *
- *
- *
- * Return: Always 0.
- *
+ * Return: Always 0 (success)
  */
 
 int main(void)
