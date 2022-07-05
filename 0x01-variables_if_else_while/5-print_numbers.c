@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main: Entry point
- * Description: Print all single digit number of base 10
+ * Description: Print single digit number of base 10
  * Return: Always 0 (success)
  */
 int main(void)
