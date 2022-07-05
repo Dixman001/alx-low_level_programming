@@ -5,12 +5,12 @@
 #include <time.h>
 
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Description: Print all single digit of base 10
  *              only use putchar
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
