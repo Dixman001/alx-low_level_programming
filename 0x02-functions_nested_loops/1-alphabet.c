@@ -5,14 +5,14 @@
  * Description: Print alphabet in lowcase
  * Return: Always 0 (success)
  */
-__attribute__ void print_alphabet(void)
+void print_alphabet(void)
 {
 	int l;
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		putchar (l);
+		_putchar (l);
 	}
-	putchar ('\n');
+	_putchar ('\n');
 
 }
