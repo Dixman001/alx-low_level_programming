@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * _pitchar: - Entry point
+ * main - Entry point
  * Description: Print _putchar
  * Return: Always 0 (success)
  */
-int _putchar(i char)
+int main(void)
 {
 
-	putchar (95);
-	putchar (112);
-	putchar (117);
-	putchar (116);
-	putchar (99);
-	putchar (104);
-	putchar (97);
-	putchar (114);
+	putchar ('_');
+	putchar ('p');
+	putchar ('u');
+	putchar ('t');
+	putchar ('c');
+	putchar ('h');
+	putchar ('a');
+	putchar ('r');
 	putchar ('\n');
 
 	return (0);
