@@ -1,4 +1,4 @@
-#include "naim.h"
+#include "main.h"
 /**
  * _isalpha - Entry point
  * Description: checks for alphabetic characters
