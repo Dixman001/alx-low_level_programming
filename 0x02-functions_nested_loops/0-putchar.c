@@ -4,7 +4,7 @@
  * Description: Print _putchar
  * Return: Always 0 (success)
  */
-int main(void)
+char main(void)
 {
 
 	putchar (95);
@@ -15,7 +15,7 @@ int main(void)
 	putchar (104);
 	putchar (97);
 	putchar (114);
-	putchar ("\n")
+	putchar ('\n')
 
-	return (0);
+	return;
 }
