@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /**
  * main - Entry point
  * Description: Print _putchar
@@ -8,8 +7,9 @@
 int main(void)
 {
 	char _putchar;
+
 	i = _putchar;
 
-	printf("%c\n", i);
+	putchar (i);
 	return (0);
 }
