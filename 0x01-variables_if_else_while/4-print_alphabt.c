@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry Point
- *
- * return: always 0 (success)
+ * main - Entry point
+ *Description: Print alphabet in lowercase, exception of q and e
+ * Return: Always 0 (success)
  */
 int main(void)
 {
