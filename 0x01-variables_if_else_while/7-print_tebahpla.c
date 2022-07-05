@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 #include <time.h>
-
-/*
- * main - Entry Point
+/**
+ * main - Entry point
  *
+ * Description: Print lower alphabet in reverse
  *
- *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  *
  */
 
