@@ -5,7 +5,7 @@
  *
  * Return: value returned is equal to c
  */
-int add(int, int)
+int add(int a, int b)
 {
 	int c
 	c = a + b;
