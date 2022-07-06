@@ -13,9 +13,9 @@ int print_last_digit(int n)
 
 	if (d < 0)
 	{
-		d = (-1 * pld);
+		d = (-1 * d);
 	}
 	_putchar (d + '0');
 
-	return (pld);
+	return (d);
 }
