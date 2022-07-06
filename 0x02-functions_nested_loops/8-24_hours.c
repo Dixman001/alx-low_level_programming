@@ -2,8 +2,8 @@
 /**
  * jack_bauer - Entry point
  * description:print time from 0
- * @h: integer
- * @m: integer
+ * h = hour
+ * m = minute
  */
 void jack_bauer(void)
 {
