@@ -2,14 +2,11 @@
 /**
  * times_table - Entry point
  * Description: Print the 9 times table
- * @a: figure 3
- * @b: figure 2
- * @c: figure 1
  */
 void times_table(void)
 {
 	int a, b, c;
-	
+
 	b = 9;
 
 
