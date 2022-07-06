@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ * times_table - Entry point
+ * Description: Print the 9 times table
+ * @a: input figure
+ * @b: constant figure
+ * @c: computation of figures
  */
 void times_table(void)
 {
@@ -17,6 +18,7 @@ void times_table(void)
 		_putchar (c);
 		_putchar (',');
 		_putchar (' ');
+		_putchar ('\n');
 	}
-	_putchar ('\n');
+
 }
