@@ -2,9 +2,9 @@
 /**
  * times_table - Entry point
  * Description: Print the 9 times table
- * @a: input figure
- * @b: constant figure
- * @c: computation of figures
+ * @a: figure 3
+ * @b: figure 2
+ * @c: figure 1
  */
 void times_table(void)
 {
