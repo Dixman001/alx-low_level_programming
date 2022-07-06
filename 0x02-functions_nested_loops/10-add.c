@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add - Entry point
- * @c: add a and b
+ * @c: calue 3
  * @a: value 1
  * @b: value 2
  * Return: value returned is equal to c
