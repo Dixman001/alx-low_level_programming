@@ -1,2 +1,2 @@
- this is more exercise on pointers arrays strings for futher studies
+ this is more exercise on pointers arrays strings
 
