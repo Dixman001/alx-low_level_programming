@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 		if (!atoi(argv[i]))
 		{
-			printf("%s\n", "Error");
+			printf("error\n");
 
 			return (1);
 		}
