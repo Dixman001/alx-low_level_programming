@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
+#include "dog.h"
 
 /**
  * init_dog - entry point for variable struct dog
@@ -14,9 +14,9 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d = malloc(sizeof(struct dog));
 	if (d == NULL)
 	{
+		d = malloc(sizeof(struct dog));
 		return (NULL);
 	}
 
