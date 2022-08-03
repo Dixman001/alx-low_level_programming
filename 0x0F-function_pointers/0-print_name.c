@@ -3,12 +3,13 @@
 #include "function_pointers.h"
 
 /**
- *
+ * print_name - entry point
+ * @f: a pointer to function
+ * @name: name
  */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*p) (char);
-	p = print_name;
+	void (*f)(char);
 
-	return;
+	p = print_name;
 }
