@@ -8,7 +8,7 @@
  * @argv: arrays
  * Return: 0
  */
-int main(int argc, argv[])
+int main(int argc, *argv[])
 {
 	int a, b, ans;
 
