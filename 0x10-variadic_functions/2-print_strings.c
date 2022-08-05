@@ -24,11 +24,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			a = "(nil)";
 		}
-		if (!separator)
+		else if (!separator)
 		{
 			printf("%s", a);
 		}
-		if (separator && i == 0)
+		else if (separator && i == 0)
 		{
 			printf("%s", a);
 		}
