@@ -8,7 +8,7 @@
  * @n: element
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i;
@@ -20,15 +20,20 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		a = va_arg(args, char *);
 
-		if (a  == NULL)
+		if (!a)
 		{
-			printf("(nil)");
+			a = "(nil)";
+		}
+		if (!separator)
+		{
+			printf("%s", a);
+		}
+		else if (separator && i == 0)
+		{
+			printf("%s", a);
 		}
 		else
-			printf("%s", a);
-
-		if (1 < n - 1 || separator != NULL)
-			printf("%s", separator);
+			printf("%s%s", separator, a);
 	}
 	va_end(args);
 	printf("\n");
