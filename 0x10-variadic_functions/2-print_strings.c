@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - entry point
+ * print_strings - entry point
  * @separator: string to print between numbers
  * @n: element
  */
@@ -24,7 +24,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			a = "(nil)";
 		}
-		else if (!separator)
+		if (!separator)
 		{
 			printf("%s", a);
 		}
@@ -36,5 +36,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s%s", separator, a);
 	}
 	va_end(args);
+
 	printf("\n");
 }
