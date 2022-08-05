@@ -28,7 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			printf("%s", a);
 		}
-		else if (separator && i == 0)
+		if (separator && i == 0)
 		{
 			printf("%s", a);
 		}
