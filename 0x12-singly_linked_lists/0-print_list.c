@@ -3,27 +3,31 @@
 #include "lists.h"
 
 /*
+ * print_list - A function that prints all the elements of a list_t list.
+ * @h: a pointer to struct
  *
+ * Return: the number of nodes
  */
 
 size_t print_list(const list_t *h)
 {
-	int i;
-	
-	if (h == NULL)
-		return 0;
+	int i = 0;
 
-	for (i = 0; h != '\0'; i++)
+	if (h == NULL)
+		return (0);
+
+	while (h != '\0')
 	{
 		if (h->str == NULL)
 		{
-			printf("[%d] %s", 0, "(nil)");
+			printf("[%d] %s\n", 0, "(nil)");
 		}
 		else
 		{
-			printf("[%d] %s", h->len, h>str);
+			printf("[%d] %s\n", h->len, h->str);
 		}
 		h = h->next;
+		i++;
 	}
 	return (i);
 }
