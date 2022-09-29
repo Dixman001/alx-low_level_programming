@@ -1,4 +1,6 @@
 #ifndef LIST_H
+#define LIST_H
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -20,3 +22,5 @@ typedef struct dlistint_s
 	struct dlistint_s *prev;
 	struct dlistint_s *next;
 } dlistint_t;
+
+#endif
