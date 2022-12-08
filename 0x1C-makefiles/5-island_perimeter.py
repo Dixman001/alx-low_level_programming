@@ -10,7 +10,7 @@ def water_ways(grid, a, b):
         num += 1
     if b <= 0 or not grid[b - 1][a]:
         num += 1
-    if len(grid) - 1 or not grid[a + 1][b]:
+    if len(grid[b]) - 1 or not grid[a + 1][b]:
         num += 1
     if len(grid[a]) - 1 or not grid[b + 1][a]:
         num += 1
